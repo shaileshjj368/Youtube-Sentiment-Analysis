@@ -14,8 +14,8 @@ import matplotlib.pyplot as plt
 # model = pickle.load(open('model.pkl', "rb"))
 app = Flask(__name__)
 
-# Set up YouTube API key
-API_KEY = "AIzaSyAwJClciwIL_91SD5qxWgWAT29UuVRypNQ"
+# Set up YouTube
+
 model_path = 'sentiment_analysis_model.pkl'
 
 @app.route("/")
